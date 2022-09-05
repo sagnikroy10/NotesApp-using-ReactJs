@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+body {
+  background: lightcyan;
+}
+
+.header {
+  background-color: darkcyan;
+  margin: auto -10px;
+  padding: 10px 20px;
+  box-shadow: 0 0 2px 0 rgb(110, 110, 110);
+  text-align: center;
+}
+.text1 {
+  padding: 15px 20px;
+  margin: auto -10px;
+  color: white;
+}
+form {
+  position: relative;
+  width: 600px;
+  margin: 32px auto 50px auto;
+  background: #fff;
+  padding: 7px;
+  border-radius: 7px;
+  box-shadow: 0 3px 7px rgb(128, 128, 128);
+}
+form input {
+  width: 100%;
+  border: inset;
+  padding: 4px 10px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+}
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px 10px;
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+}
+.note {
+  background: #ffffff;
+  width: 240px;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px rgb(175, 175, 175);
+  padding: 10px;
+  margin: 16px;
+  float: left;
+  margin-right: 0;
+}
+
+.note h1 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+  color: darkcyan;
+  font-style: italic;
+}
+
+.note p {
+  font-size: 1rem;
+  color: darkgoldenrod;
+  margin-bottom: 10px;
+  font-style: inherit;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+form button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  bottom: 30px;
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.delete {
+  position: relative;
+  display: flex;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  cursor: pointer;
+}
